@@ -37,7 +37,6 @@ def track_pendulum(video_path):
                     cx = int(M["m10"] / M["m00"])
                     cy = int(M["m01"] / M["m00"])
 
-                    # Sprünge verhindern
                     if len(positions) > 0:
                         px, py = positions[-1]
 
